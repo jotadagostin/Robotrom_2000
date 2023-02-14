@@ -231,3 +231,21 @@ main {
         margin: 10vh auto;
     }
 }
+
+@media screen and (max-width: 720px) {
+    body { 
+        font-size: 13px;
+        height: 100vh;
+        
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 96vw;
+        height: 80vh;
+        margin: 10vh auto;
+    }
+
+    
+}
